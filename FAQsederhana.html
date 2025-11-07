@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id" id="top">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ | Del's Collection</title>
+
+  <!-- CSS & Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style_flexbox1catalog.css">
+  <script type="text/javascript" src="js/atur1.js"></script>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="flexbox1catalog_1.html">Del's Collection</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarScroll">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link" href="flexbox1catalog_1.html">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="promo.html">Promo</a></li>
+        </ul>
+        <button onclick="toggleMode()" class="btn btn-outline-light me-3">🌗 Mode</button>
+        <span id="clock" class="text-white"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER FAQ -->
+  <header class="jumbotron">
+    <h1 class="display-5 fw-bold">Frequently Asked Questions</h1>
+    <p class="lead">Temukan jawaban atas pertanyaan seputar produk, pemesanan, dan layanan Del’s Collection</p>
+  </header>
+
+  <!-- KONTEN FAQ -->
+  <div class="container mt-5 mb-5 content">
+    <h2 class="text-center mb-4">Pertanyaan Umum</h2>
+
+    <div class="accordion" id="faqAccordion">
+
+      <!-- FAQ 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq1">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+            Apakah produk Del's Collection original?
+          </button>
+        </h2>
+        <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Semua produk kami adalah <strong>100% original</strong> dan diproduksi langsung oleh Del’s Collection dengan bahan berkualitas premium.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+            Bagaimana cara memesan produk?
+          </button>
+        </h2>
+        <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Kamu dapat memesan produk melalui halaman <a href="flexbox1catalog_1.html#katalog">Katalog Produk</a>, pilih produk yang kamu inginkan, lalu klik tombol <em>Beli</em>.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+            Apakah Del's Collection menyediakan pengiriman ke seluruh Indonesia?
+          </button>
+        </h2>
+        <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Ya! Kami melayani <strong>pengiriman ke seluruh wilayah Indonesia</strong> menggunakan jasa ekspedisi terpercaya seperti JNE, J&T, dan SiCepat.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq4">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+            Apakah ada garansi untuk produk yang dibeli?
+          </button>
+        </h2>
+        <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Kami memberikan <strong>garansi penukaran produk</strong> selama 7 hari jika terdapat cacat produksi, dengan syarat produk belum digunakan.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq5">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+            Bagaimana jika ukuran sepatu yang saya pesan tidak pas?
+          </button>
+        </h2>
+        <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Tenang saja! Kamu bisa menukar ukuran dalam waktu maksimal <strong>3 hari setelah menerima barang</strong>, dengan kondisi produk masih baru.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    &copy; 2025 Del's Collection | Created by Fidela Aulia Nazam (A12.2024.07181)
+  </footer>
+
+  <script>
+    function toggleMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
